@@ -1,0 +1,11 @@
+<div class="p-3  w-auto  h-auto rounded-4 bg-white">
+    <div class="d-flex flex-column  gap-3 ">
+
+        @for (item of linksContent; track $index) {
+        <div class="w-100">
+            <app-side-right-links [pageLink]="item"></app-side-right-links>
+        </div>
+        }
+    </div>
+    <!-- <i class="fa far fa-address-book"></i> -->
+</div>

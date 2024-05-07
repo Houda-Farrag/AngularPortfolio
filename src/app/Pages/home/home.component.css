@@ -1,0 +1,21 @@
+img {
+    background: red !important;
+    border-radius: 30px;
+    filter: drop-shadow(10px 5px 10px orange) !important;
+}
+
+.home {
+    min-height: 100%;
+}
+
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: #f0f0f0;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.hide {
+    opacity: 0;
+}

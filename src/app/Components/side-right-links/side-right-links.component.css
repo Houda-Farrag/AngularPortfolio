@@ -1,0 +1,20 @@
+.link-icons {
+    text-transform: capitalize;
+    font-size: 14px !important;
+    transition: .5s all;
+    color: black;
+
+}
+
+.transform-control {
+    background-color: wheat;
+    transition: .5s all;
+    color: red !important;
+}
+
+.link-icons:hover {
+
+    transform: rotatey(350deg) scale(1.2) translateY(-10px);
+}
+
+@media screen {}

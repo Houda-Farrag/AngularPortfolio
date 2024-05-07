@@ -1,0 +1,8 @@
+.icon-sochial {
+    transition: .3s all;
+}
+
+.icon-sochial:hover {
+    box-shadow: 0px 0px 15px rgb(62, 197, 221);
+    transform: scale(1.1) translateY(-5px);
+}

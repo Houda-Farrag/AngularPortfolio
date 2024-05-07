@@ -1,0 +1,21 @@
+img {
+    max-width: 100%;
+    min-width: 100px;
+    filter: contrast(125%) hue-rotate(60);
+    /* mix-blend-mode: multiply; */
+    border-radius: 50%;
+    box-shadow: 4px 5px 10px 1px;
+    transition: .5s all;
+    animation: 1s linear .5s infinite alternate image-animation;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes image-animation {
+    0% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(5px);
+    }
+}

@@ -1,0 +1,10 @@
+.content-page {
+    min-height: 88vh !important;
+    padding-bottom: 10px;
+}
+
+.app-body {
+    background-color: azure;
+    background-image: linear-gradient(rgba(113, 113, 243, 0.5), rgba(255, 255, 0, 0.5));
+    /* color: #c71c39; */
+}
