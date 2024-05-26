@@ -5,7 +5,7 @@ import { Router } from '@angular/router';
 interface Project {
   name: string,
   description: string,
-  url: string,
+  urls: { github: string, demo: string },
   tools: string[],
   images: string[]
 }
@@ -24,13 +24,24 @@ export class WorksComponent {
     {
       name: "Portfolio",
       description: "portfolio for show your works and ease to contact with you",
-      tools: ['Angulaar 17', 'bootstrap 5'],
-      url: "https://github.com/Houda-Farrag/Dashboard-Dubizzle",
+      tools: ['fa fa-github', 'fa fab fa-android'],
+      urls: { github: "https://github.com/Houda-Farrag/Dashboard-Dubizzle", demo: "https://github.com/Houda-Farrag/Dashboard-Dubizzle" },
       images: ["https://www.bing.com/images/blob?bcid=RPBMSNzNMxIHufXBWVC4JxV49hsT.....70"]
     },
-
+    {
+      name: "dashpoard",
+      description: "portfolio for show your works and ease to contact with you",
+      tools: ['fa fa-github', 'fa fab fa-android'],
+      urls: { github: "https://github.com/Houda-Farrag/Dashboard-Dubizzle", demo: "https://github.com/Houda-Farrag/Dashboard-Dubizzle" },
+      images: ["https://www.bing.com/images/blob?bcid=RPBMSNzNMxIHufXBWVC4JxV49hsT.....70"]
+    },
+    {
+      name: "Portfolio",
+      description: "portfolio for show your works and ease to contact with you",
+      tools: ['fa fa-github', 'fa fa-github'],
+      urls: { github: "https://github.com/Houda-Farrag/Dashboard-Dubizzle", demo: "https://github.com/Houda-Farrag/Dashboard-Dubizzle" },
+      images: ["https://www.bing.com/images/blob?bcid=RPBMSNzNMxIHufXBWVC4JxV49hsT.....70"]
+    },
   ]
-  goToGitHub(url: string) {
-    this.router.navigate([url])
-  }
+
 }

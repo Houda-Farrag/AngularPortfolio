@@ -1,0 +1,9 @@
+.icon-github {
+    box-sizing: content-box;
+    transition: .3s all;
+}
+
+.icon-github:hover {
+    transform: scale(1.1);
+    color: rgb(20, 136, 231) !important;
+}
