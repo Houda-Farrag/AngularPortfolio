@@ -1,0 +1,25 @@
+.buton-class {
+    transform: rotate(90deg);
+    font-weight: 700;
+    visibility: hidden;
+}
+
+@media screen and (width<768px) {
+    .buton-class {
+        visibility: visible;
+    }
+}
+
+.links-header ul>li {
+    background: rgb(163, 156, 156);
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+
+
+}
+
+.links-header ul>li a {
+    text-decoration: none;
+    font-size: 20px;
+}

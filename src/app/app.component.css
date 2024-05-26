@@ -5,6 +5,11 @@
 
 .app-body {
     background-color: azure;
-    background-image: linear-gradient(rgba(113, 113, 243, 0.5), rgba(255, 255, 0, 0.5));
+    /* background-image: linear-gradient(rgba(137, 137, 226, 0.5), rgba(179, 179, 67, 0.5)); */
+    background: linear-gradient(10deg, #05bdbd, #c448a7);
+
     /* color: #c71c39; */
+    scroll-behavior: auto;
+
+
 }

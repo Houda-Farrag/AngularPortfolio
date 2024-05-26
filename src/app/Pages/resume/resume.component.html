@@ -1,1 +1,30 @@
-<p>resume works!</p>
+<div class="text-start px-2 ">
+    <app-header-sub-pages headerTitle="resume"></app-header-sub-pages>
+    <div class="d-flex flex-row  justify-content-between g-1 ">
+        @for (item of Certificate; track $index) {
+        <app-educa-intern [data]="item"></app-educa-intern>
+        }
+    </div>
+    <div class="py-2 px-md-2 px-0 d-flex flex-md-row flex-column     mt-2 rounded-1 ">
+        <div class="col my-md-0 my-2">
+            <div>
+                <h5 class="text-capitalize fw-bold  ">soft Skills</h5>
+            </div>
+            <div>
+                @for (techskil of SoftSkills; track $index) {
+                <app-skills [skill]="techskil"></app-skills>
+                }
+            </div>
+        </div>
+        <div class="col my-md-0 my-2">
+            <div>
+                <h5 class="text-capitalize fw-bold ">techneqal skills</h5>
+            </div>
+            <div>
+                @for (techskil of Techskills; track $index) {
+                <app-skills [skill]="techskil"></app-skills>
+                }
+            </div>
+        </div>
+    </div>
+</div>

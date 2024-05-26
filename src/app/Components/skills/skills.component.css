@@ -1,0 +1,7 @@
+/* .hover-color div:nth-child(2) div {} */
+
+.hover-color:hover div:nth-child(2) div {
+    background: #0e962b !important;
+
+    transition: .6s ease-in-out;
+}

@@ -11,6 +11,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HeaderComponent {
   pages = [{ url: "home", header: "Home" }, { url: 'angular-page', header: 'Angular Page' }]
   themeChange(event: Event) {
-    console.log(event.target);
+    let div = document.querySelector(".links-header")
+    div?.classList.toggle('d-none')
+
+    // (<HTMLElement>event.target).classList
   }
 }

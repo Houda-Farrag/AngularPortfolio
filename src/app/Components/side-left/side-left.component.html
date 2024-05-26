@@ -1,14 +1,32 @@
-<div class="p-0 m-0 ">
-    <div class="p-0 m-0 ">
-        <img src="../../../assets/images/img_profile.jpg" class="p-0 m-0 " alt="photo profile">
-    </div>
-</div>
-<div class=" rounded h-50 my-3 ">
-    <p class="p-0 m-0 fw-bold fs-4 opacity-75 object-fit-contain ">Mahmoud Farrag </p>
-</div>
-<div class="d-flex flex-wrap  justify-content-between shadow fs-3 bg-black bg-opacity-10 rounded-2 p-2">
-    @for (link of links; track $index) {
-    <app-sochial-link [iconLink]="link"></app-sochial-link>
-    }
+<div class="px-2 ">
+    <div>
+        <div class="p-0 m-0 ">
+            <div class="p-0 m-0 ">
 
+                <img src="../../../assets/images/img_remove_background.png" class=" " alt="photo profile">
+            </div>
+        </div>
+        <div class=" rounded h-50 my-3 rounded ">
+            <main class="container pt-3 ">
+                <section class="animation ">
+                    <div class="first rounded ">
+                        <div>Mahmoud Farrag</div>
+                    </div>
+                    <div class="second rounded ">
+                        <div>Web Developer</div>
+                    </div>
+                    <div class="third rounded ">
+                        <div class="">Full Stack MEARN</div>
+                    </div>
+                </section>
+            </main>
+            <!-- <p class="p-0 m-0 fw-bold fs-4 opacity-75 object-fit-contain ">Mahmoud Farrag </p> -->
+        </div>
+    </div>
+    <div
+        class="d-flex flex-wrap  justify-content-between shadow fs-3 bg-black bg-opacity-10 rounded-2 p-2 icons-contact">
+        @for (link of links; track $index) {
+        <app-sochial-link [iconLink]="link"></app-sochial-link>
+        }
+    </div>
 </div>

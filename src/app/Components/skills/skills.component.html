@@ -1,0 +1,11 @@
+<div class="px-2 py-2 hover-color">
+    <div class="d-flex justify-content-between ">
+        <p class=" p-0 m-0 text-capitalize fw-medium  ">{{skill.name}}</p>
+        <p class=" p-0 m-0">{{skill.percentage}}%</p>
+    </div>
+    <div class="bg-gradient border rounded " style="height: 10px; width: 100%;">
+        <div class="rounded bg-opacity-50 " style="height: 100%;"
+            [ngStyle]="{'width':skill.percentage+'%','background-color':skill.color}">
+        </div>
+    </div>
+</div>

@@ -1,1 +1,22 @@
-<p>works works!</p>
+<app-header-sub-pages class="" headerTitle="work"></app-header-sub-pages>
+<div class="d-flex gap-2 mt-3 h-auto  flex-wrap justify-content-evenly  ">
+    @for (item of work; track $index) {
+    <div class="text-start col-5 h-auto  border rounded-4 p-2 pointer-event" (click)="goToGitHub(item.url)">
+        <div class="">
+            <h4>
+                {{item.name}}
+            </h4>
+        </div>
+        <div class="">
+            <img [src]="item.images[0]" class="w-100" alt="image project">
+        </div>
+        <div class="w-100 ">
+            <p>
+                {{item.description}}
+            </p>
+        </div>
+
+    </div>
+    }
+
+</div>

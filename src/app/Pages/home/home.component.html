@@ -1,14 +1,37 @@
 <div class="col">
-    <div>
-        <h3 class=" rounded h-50 my-3 ">
+    <div class="position-relative ">
+        <p class=" ">
+            <span>
+                Mahmoud Farrag
+            </span>
+        </p>
+    </div>
+    <div class="d-flex flex-wrap">
+        <div class="about-section">
+            <p>
+                After exploring many programming fields, I discovered my niche in web development. Driven by a passion
+                for continuous learning and growth in this field, I enrolled in training courses and honed my skills
+                through numerous projects and applications.
+            </p>
+        </div>
+    </div>
+    <h3 class="back-color-text">what i do</h3>
+    <div class="pt-2 ">
+        <div class="row-cols-2 d-flex flex-wrap text-start text-wrap ">
+            @for (item of Filed; track $index) {
+            <app-field-description [field]="item"></app-field-description>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- <h3 class=" rounded h-50 my-3 ">
             <p class="p-0 m-0 fw-bold fs-4 opacity-75 object-fit-contain text-start"
                 style="text-transform: capitalize;">
                 i'm <span class=" ">Mahmoud
                 </span>
                 <br>
-                <span class="text-danger font-monospace fw-bolder ">Front-End</span> Developer
+                <span class="text-danger font-monospace fw-bolder  ">Front-End</span> Developer
             </p>
 
-        </h3>
-    </div>
-</div>
+        </h3> -->
