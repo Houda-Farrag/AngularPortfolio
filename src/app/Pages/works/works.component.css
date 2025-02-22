@@ -7,3 +7,8 @@
     transform: scale(1.1);
     color: rgb(20, 136, 231) !important;
 }
+
+img {
+    max-height: 200px;
+
+}

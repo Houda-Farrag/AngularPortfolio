@@ -29,11 +29,11 @@ export class ResumeComponent {
 
   Certificate = [{
     title: "Education",
-    content: "Bachelor's degree of Computer Science,Faculty of Computers and Information, Luxor University",
+    content: "Bachelor's degree of Computer Science, Faculty of Computers and Information, Luxor University",
     icon: "fa fab fas fa-graduation-cap", date: '2019/09 – 2023/07'
   }, {
     title: "Internship",
-    content: "Code Camp (ICC), Information Technology Institute (ITI),Full Stack Development (MEARN) MongoDB, Express.js, Angular.js, React.js, Node.js",
+    content: "Code Camp (ICC), Information Technology Institute (ITI), Full Stack Development (MEARN) MongoDB, Express.js, Angular.js, React.js, Node.js",
     icon: "fa  fas fa-user", date: '2023/11 – 2024/04'
   }]
 }

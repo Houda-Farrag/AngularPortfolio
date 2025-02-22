@@ -5,23 +5,23 @@ import { AngularPageComponent } from '../angular-page/angular-page.component';
 import { SideLeftComponent } from '../../Components/side-left/side-left.component';
 import { SideRightComponent } from '../../Components/side-right/side-right.component';
 import { FieldDescriptionComponent } from '../../Components/field-description/field-description.component';
+import { HeaderSubPagesComponent } from '../../Components/header-sub-pages/header-sub-pages.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [RouterOutlet, HeaderComponent, AngularPageComponent, SideLeftComponent, SideRightComponent, FieldDescriptionComponent],
+  imports: [RouterOutlet, HeaderComponent, AngularPageComponent, SideLeftComponent, SideRightComponent, FieldDescriptionComponent, HeaderSubPagesComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
   Filed = [
     {
-      title: "web", description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.\
-    Quos nihil tempora quod molestiae nisi provident minima adipisci quisquam sit,\
-    animi blanditiis doloribus aliquid, assumenda dolor nulla? Recusandae debitis est itaque.", icon: "fa fa-facebook", color: '#198754'
+      title: "front end development", description: "specialize in building the visual and interactive components of websites and web applications.\
+     with skills: HTML/CSS, JavaScript, Responsive Web Design:", icon: "fa fa-facebook", color: '#198754'
     },
-    { title: "web2", description: "leorem absum", icon: "fa fa-facebook", color: '#198722' },
-    { title: "web3", description: "leorem absum", icon: "fa fa-facebook", color: '#115754' },
+    { title: "Backend Development", description: "creating robust and efficient server-side applications. skills include: Node.js, Express.js, implementing RESTful APIs, Databases: MongoDB", icon: "fa fa-facebook", color: '#198722' },
+
   ]
 
 }

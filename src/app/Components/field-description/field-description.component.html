@@ -1,9 +1,7 @@
-<div class="d-flex gap-1 align-items-baseline mx-1 rounded-2 mb-2 " [ngStyle]="{'background-color':field.color}">
+<div class="text-capitalize  d-flex gap-1 align-items-baseline mx-1 bg-success-subtle p-2    rounded-2 mb-2 "
+    [ngStyle]="{'background-color':field.color}">
     <div>
-        <p><i [class]="field.icon"></i></p>
-    </div>
-    <div>
-        <h4>{{field.title}}</h4>
-        <p>{{field.description}}</p>
+        <h5 class="fw-bold font-monospace ">{{field.title}}</h5>
+        <p class="fs-6 fw-medium ">{{field.description}}</p>
     </div>
 </div>

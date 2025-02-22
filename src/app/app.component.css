@@ -6,10 +6,19 @@
 .app-body {
     background-color: azure;
     /* background-image: linear-gradient(rgba(137, 137, 226, 0.5), rgba(179, 179, 67, 0.5)); */
-    background: linear-gradient(10deg, #05bdbd, #c448a7);
+    background: linear-gradient(10deg, #05bdbd, #ee94d9);
 
     /* color: #c71c39; */
     scroll-behavior: auto;
+}
 
 
+.work-bg {
+    /* background-color: rgb(209, 200, 201); */
+    background: radial-gradient(rgb(245, 194, 194), rgb(187, 187, 248));
+}
+
+.contact-b {
+    /* background-color: rgb(100, 160, 175); */
+    background: radial-gradient(rgb(180, 243, 240), rgb(187, 187, 248));
 }

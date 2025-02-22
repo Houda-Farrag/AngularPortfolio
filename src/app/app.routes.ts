@@ -5,6 +5,7 @@ import { NotFoundPageComponent } from './Pages/not-found-page/not-found-page.com
 import { ContactComponent } from './Pages/contact/contact.component';
 import { WorksComponent } from './Pages/works/works.component';
 import { ResumeComponent } from './Pages/resume/resume.component';
+import { TestsliderComponent } from './Pages/testslider/testslider.component';
 
 export const routes: Routes = [
 
@@ -13,6 +14,7 @@ export const routes: Routes = [
     { path: 'contact', component: ContactComponent },
     { path: 'works', component: WorksComponent },
     { path: 'resume', component: ResumeComponent },
+    { path: 'slider', component: TestsliderComponent },
     { path: '', component: HomeComponent },
     { path: '**', component: NotFoundPageComponent },
 ];

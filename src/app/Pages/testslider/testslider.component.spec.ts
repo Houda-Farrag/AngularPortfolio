@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SideRightComponent } from './side-right.component';
+import { TestsliderComponent } from './testslider.component';
 
-describe('SideRightComponent', () => {
-  let component: SideRightComponent;
-  let fixture: ComponentFixture<SideRightComponent>;
+describe('TestsliderComponent', () => {
+  let component: TestsliderComponent;
+  let fixture: ComponentFixture<TestsliderComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SideRightComponent]
+      imports: [TestsliderComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SideRightComponent);
+    fixture = TestBed.createComponent(TestsliderComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

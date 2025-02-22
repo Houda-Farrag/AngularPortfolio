@@ -1,4 +1,5 @@
 /* .hover-color div:nth-child(2) div {} */
+.hover-color {}
 
 .hover-color:hover div:nth-child(2) div {
     background: #0e962b !important;

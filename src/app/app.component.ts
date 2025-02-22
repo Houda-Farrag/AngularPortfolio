@@ -8,6 +8,7 @@ import { WorksComponent } from './Pages/works/works.component';
 import { ContactComponent } from './Pages/contact/contact.component';
 import { ResumeComponent } from './Pages/resume/resume.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { TestsliderComponent } from './Pages/testslider/testslider.component';
 
 @Component({
   selector: 'app-root',
@@ -21,7 +22,7 @@ import { FooterComponent } from './Components/footer/footer.component';
     WorksComponent,
     ContactComponent,
     ResumeComponent,
-    FooterComponent
+    FooterComponent, TestsliderComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
